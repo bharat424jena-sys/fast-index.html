@@ -1,0 +1,20 @@
+* {padding: 0;
+margin: 0;}
+
+header main a {
+height: 10px;
+width: 5px;
+text-decoration: none;
+margin-left: 40px;}
+
+main {background-color: rgb(153, 163, 163);
+height: 30px;
+width: 1100px;}
+h2 {font-family: fantasy;
+color: rgb(74, 224, 224);}
+p {text-transform: capitalize;
+margin-left: 25px;}
+h3 {color: brown;
+margin-left: 25px;}
+#under {position: absolute;
+left: 25px;}
