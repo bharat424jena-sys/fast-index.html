@@ -18,3 +18,8 @@ h3 {color: brown;
 margin-left: 25px;}
 #under {position: absolute;
 left: 25px;}
+img {position: absolute;
+left: 30px;
+height: 100px;
+width: 100px;
+top: 200px;}
