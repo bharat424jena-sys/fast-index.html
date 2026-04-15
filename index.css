@@ -23,7 +23,7 @@ left: 30px;
 height: 100px;
 width: 100px;
 top: 200px;}
-@media (max-width: 600px) {
+@media (max-width: 320px) {
 
     /* ✅ menu को vertical करना */
     main {
