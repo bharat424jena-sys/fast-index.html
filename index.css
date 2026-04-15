@@ -23,3 +23,64 @@ left: 30px;
 height: 100px;
 width: 100px;
 top: 200px;}
+@media (max-width: 600px) {
+
+    /* ✅ menu को vertical करना */
+    main {
+        flex-direction: column; /* 🔥 important */
+        height: auto;
+    }
+
+    header main a {
+        margin: 10px 0; /* ऊपर-नीचे spacing */
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 100px; /* छोटा image mobile में */
+    }
+}
+
+
+/* ========================= */
+/* 💻 TABLET VIEW (601px - 900px) */
+/* ========================= */
+@media (min-width: 601px) and (max-width: 900px) {
+
+    main {
+        flex-wrap: wrap; /* links adjust होंगे */
+    }
+
+    header main a {
+        margin-left: 20px;
+        font-size: 13px;
+    }
+
+    img {
+        width: 120px;
+    }
+}
+
+
+/* ========================= */
+/* 🖥️ DESKTOP VIEW (900px+) */
+/* ========================= */
+@media (min-width: 901px) {
+
+    main {
+        justify-content: space-around; /* spacing improve */
+    }
+
+    img {
+        width: 150px;
+    }
+}
